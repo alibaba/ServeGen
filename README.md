@@ -10,7 +10,7 @@ Powered by the analysis of billions of inference requests across 12 production m
 
 We hope ServeGen can become a data-driven bridge between frontier research and production realities when designing and deploying new LLM serving systems.
 
-For more detailed analysis results, check out our characterization [paper](https://www.arxiv.org/abs/2505.09999)!
+For more detailed analysis results, check out our characterization [paper](https://www.usenix.org/system/files/nsdi26-xiang-servegen.pdf)!
 
 
 ## Requirements
@@ -159,13 +159,16 @@ Each category (LANGUAGE, REASON, MULTIMODAL) contains model-specific data with:
 If you find our work helpful, feel free to give us a cite.
 
 ```txt
-@misc{servegen,
-    title={ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production}, 
-    author={Yuxing Xiang and Xue Li and Kun Qian and Wenyuan Yu and Ennan Zhai and Xin Jin},
-    year={2025},
-    eprint={2505.09999},
-    archivePrefix={arXiv},
-    primaryClass={cs.DC},
-    url={https://arxiv.org/abs/2505.09999}, 
+@inproceedings {servegen,
+    author = {Yuxing Xiang and Xue Li and Kun Qian and Yan Zhang and Wenyuan Yu and Ennan Zhai and Xin Jin and Jingren Zhou},
+    title = {{ServeGen}: Workload Characterization and Generation of Large Language Model Serving in Production},
+    booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
+    year = {2026},
+    isbn = {978-1-939133-54-0},
+    address = {Renton, WA},
+    pages = {1845--1859},
+    url = {https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen},
+    publisher = {USENIX Association},
+    month = may
 }
 ```
