@@ -143,16 +143,20 @@ data/
 │   ├── deepseek-r1/
 │   │   ├── chunk-1-dataset.json
 │   │   └── chunk-1-trace.csv
-└── multimodal/
-    ├── mm-image/
-    │   ├── chunk-1-dataset.json
-    │   └── chunk-1-trace.csv
+├── multimodal/
+│   ├── mm-image/
+│   │   ├── chunk-1-dataset.json
+│   │   └── chunk-1-trace.csv
+└── conversations/
+    └── conversations_hashed.json
 ```
 
 Each category (LANGUAGE, REASON, MULTIMODAL) contains model-specific data with:
 - `chunk-i-dataset.json`: Request data distributions
 - `chunk-i-trace.csv`: Rate and arrival pattern information
 
+For multi-turn conversation data, we provide:
+- `conversations/conversations_hashed.json`: A selectively released dataset of multi-turn conversations. Input and output content are replaced with block hashes to preserve privacy, while structural characteristics are retained for analysis.
 
 ## Citation
 
