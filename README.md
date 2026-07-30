@@ -147,8 +147,11 @@ data/
 │   ├── mm-image/
 │   │   ├── chunk-1-dataset.json
 │   │   └── chunk-1-trace.csv
-└── conversations/
-    └── conversations_hashed.json
+├── conversations/
+│   └── conversations_hashed.json
+└── offline/
+    ├── trace_a.jsonl
+    └── ...
 ```
 
 Each category (LANGUAGE, REASON, MULTIMODAL) contains model-specific data with:
@@ -157,6 +160,9 @@ Each category (LANGUAGE, REASON, MULTIMODAL) contains model-specific data with:
 
 For multi-turn conversation data, we provide:
 - `conversations/conversations_hashed.json`: A selectively released dataset of multi-turn conversations. Input and output content are replaced with block hashes to preserve privacy, while structural characteristics are retained for analysis.
+
+For offline (batch) inference data, we provide:
+- `offline/`: Anonymized traces of offline LLM inference workloads (batch tasks) from our platform. See `offline/README.md` for details.
 
 ## Citation
 
