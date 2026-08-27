@@ -89,3 +89,24 @@ Traces are in JSONL format, one request per line.
 ## Privacy
 
 These traces contain only anonymized token counts, remapped content hashes, and execution durations. They do not include any original text, real token IDs, or user identifiers. Prefix block hashes were generated using a salted hash and then globally remapped to consecutive integers, making recovery of the original content computationally infeasible. Image URLs have been replaced with anonymized IDs.
+
+## Citation
+
+If you find our work helpful, feel free to give us a cite.
+
+```txt
+@inproceedings{acdc,
+    author    = {Leping Yang and Xue Li and Kun Qian and Erci Xu and Mingzhen Han and Haoran Zhu and Tao He and Zuolong Yin and Ennan Zhai and Wenyuan Yu and Jingren Zhou and Guangtao Xue},
+    title     = {Batched in Back: Characterizing and Optimizing Offline {LLM} Inference in Production with {ACDC}},
+    booktitle = {Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles (SOSP '26)},
+    year      = {2026},
+    month     = sep,
+    series    = {SOSP '26},
+    location  = {Prague, Czech Republic},
+    address   = {New York, NY, USA},
+    publisher = {Association for Computing Machinery},
+    numpages  = {16},
+    doi       = {10.1145/3830418.3843877},
+    url       = {https://doi.org/10.1145/3830418.3843877}
+}
+```

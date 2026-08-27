@@ -182,3 +182,22 @@ If you find our work helpful, feel free to give us a cite.
     month = may
 }
 ```
+
+If you use the offline traces, please also cite our SOSP 2026 paper:
+
+```txt
+@inproceedings{acdc,
+    author    = {Leping Yang and Xue Li and Kun Qian and Erci Xu and Mingzhen Han and Haoran Zhu and Tao He and Zuolong Yin and Ennan Zhai and Wenyuan Yu and Jingren Zhou and Guangtao Xue},
+    title     = {Batched in Back: Characterizing and Optimizing Offline {LLM} Inference in Production with {ACDC}},
+    booktitle = {Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles (SOSP '26)},
+    year      = {2026},
+    month     = sep,
+    series    = {SOSP '26},
+    location  = {Prague, Czech Republic},
+    address   = {New York, NY, USA},
+    publisher = {Association for Computing Machinery},
+    numpages  = {16},
+    doi       = {10.1145/3830418.3843877},
+    url       = {https://doi.org/10.1145/3830418.3843877}
+}
+```
